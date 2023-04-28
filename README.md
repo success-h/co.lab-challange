@@ -1,38 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Co.Lab Portfolio challange
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Open ([https://co-lab-challange.vercel.app/]) with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Requirements:
+- Your web app must include a short bio about you and your professional history.
+- Your web app should display a few of your side projects or professional projects and should include a link to access the projects.
+- Your web app should make an API call to display 3-5 pieces of data you retrieve from the API service. You are welcome to choose whatever API you’d like to use.
+    - Include a section to explain why you chose the specific API you used in your project.
+- Your web app should be designed using brand colours from the [Co.Lab site](https://www.joincolab.io/). Please reference [our website](https://www.joincolab.io/) and see how we structure information and how buttons and links are designed.
+- Your web app must be mobile-responsive.
+- Lastly, you must also deploy and host your web app using any service of your choice. (e.g. [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), etc.)
 
 ## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
