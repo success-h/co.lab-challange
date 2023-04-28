@@ -8,9 +8,9 @@ export default function RandomApiData({ data }: { data: EventDataTypes[] }) {
       <p className="text-sm p-4 text-black font-sans bg-purple-200 my-10 flex items-center">
         <RiErrorWarningLine size={40} className="mr-2" />{" "}
         <span className="text-lg font-mono">
-          from a djangorestframework I built in the past. the api is about event
-          management and ticketing. I choose to use this api because it is once
-          or my favourite apis I have built with django.
+          In the past, I built a Django REST framework API for event management
+          and ticketing, which remains one of my favorite APIs developed using
+          Django and Postgres. these are few event data returned.
         </span>
         This data is returned
       </p>
