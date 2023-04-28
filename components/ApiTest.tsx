@@ -2,8 +2,6 @@ import { RiErrorWarningLine } from "react-icons/ri";
 import Card from "./Card";
 
 export default function RandomApiData({ data }: { data: EventDataTypes[] }) {
-  console.log("data:", data);
-
   return (
     <div className="max-w-screen-2xl my-40 mx-auto px-7" id="api">
       <p className="text-2xl font-bold text-purple-100">Random Api data</p>
