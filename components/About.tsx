@@ -1,17 +1,17 @@
-import { Avatar } from "@nature-ui/core";
-import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import React from "react";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
+import { Avatar } from '@nature-ui/core';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React from 'react';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { HiOutlineMail } from 'react-icons/hi';
 
 function About() {
   const router = useRouter();
 
   function handleEmailClick(event: any) {
     event.preventDefault();
-    window.location.href = "mailto:successhycenth8@gmail.com";
+    window.location.href = 'mailto:successhycenth8@gmail.com';
   }
   return (
     <div className="w-full mt-40  dark:bg-inherit">
@@ -46,10 +46,10 @@ function About() {
             strong foundation in building responsive and dynamic web
             applications. I have a deep understanding of ReactJS and its
             ecosystem, including Redux, React Router, and Styled Components, as
-            well as extensive experience with TailwindCSS. <br /> <br />{" "}
-            Additionally, I&apos;ve built worked with React Native and developed
+            well as extensive experience with TailwindCSS. <br /> <br />{' '}
+            Additionally, I&apos;ve worked with React Native and developed
             amazing applications for iOS and Android, leveraging the power of
-            React Native to create seamless and performant mobile experiences.{" "}
+            React Native to create seamless and performant mobile experiences.{' '}
             <br /> <br /> As a developer, I prioritize writing clean and
             maintainable code that is both scalable and efficient. I&apos;m
             experienced in using TypeScript to enhance code quality and prevent
@@ -77,11 +77,11 @@ function About() {
           </p>
           <div className="flex items-center gap-8 md:gap-16 mt-10">
             <Link
-              href={"https://www.linkedin.com/in/success-hycenth-a57556204/"}
+              href={'https://www.linkedin.com/in/success-hycenth-a57556204/'}
             >
               <BsLinkedin size={24} />
             </Link>
-            <Link href={"https://github.com/success-h"}>
+            <Link href={'https://github.com/success-h'}>
               <BsGithub size={24} />
             </Link>
 
