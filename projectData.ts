@@ -46,8 +46,8 @@ export const ProjectData = [
         id: 3,
       },
     ],
-    source: "https://github.com/success-h/movietime",
-    link: "https://github.com/Nature-UI",
+    source: "https://github.com/Nature-UI",
+    link: "https://nature-ui.com/",
   },
   {
     id: 3,
