@@ -67,7 +67,7 @@ function About() {
           <p className="mt">
             <button className="justify-self-center mt-4 bg-purple-500 sm:justify-self-start py-2 px-7 text-white hover:text-black outline-none text-2xl font-medium hover:bg-purple-200 active:bg-purple-200 rounded-full">
               <Link
-                href="SuccessHycenth.pdf"
+                href="Success-Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
